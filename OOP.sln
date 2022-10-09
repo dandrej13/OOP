@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstClassAndMethodToString", "FirstClassAndMethodToString\FirstClassAndMethodToString.csproj", "{49FB6D96-945A-495D-9313-7D175EA046FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstClassAndMethodToString", "FirstClassAndMethodToString\FirstClassAndMethodToString.csproj", "{49FB6D96-945A-495D-9313-7D175EA046FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstuctorsAndDestructors", "ConstuctorsAndDestructors\ConstuctorsAndDestructors.csproj", "{EEA13D3B-4FF6-4B70-BF65-8455D35FCF04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstuctorsAndDestructors", "ConstuctorsAndDestructors\ConstuctorsAndDestructors.csproj", "{EEA13D3B-4FF6-4B70-BF65-8455D35FCF04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAndTeacher", "StudentAndTeacher\StudentAndTeacher.csproj", "{C9D5E0F1-1751-4A47-B8E7-F3C4BE4E7656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAndTeacher", "StudentAndTeacher\StudentAndTeacher.csproj", "{C9D5E0F1-1751-4A47-B8E7-F3C4BE4E7656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBookClass", "PhotoBookClass\PhotoBookClass.csproj", "{8AF51040-3100-4365-957D-E94974B85C48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoBookClass", "PhotoBookClass\PhotoBookClass.csproj", "{8AF51040-3100-4365-957D-E94974B85C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceOfObjects", "InheritanceOfObjects\InheritanceOfObjects.csproj", "{0981F6BE-98B7-4846-A969-32BC07058CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceOfObjects", "InheritanceOfObjects\InheritanceOfObjects.csproj", "{0981F6BE-98B7-4846-A969-32BC07058CC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeClassDiagram", "ShapeClassDiagram\ShapeClassDiagram.csproj", "{46B26B16-183C-4142-A723-07467CAC53C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShape", "MyShape\MyShape.csproj", "{A302F1D3-56B0-4C94-9EEA-4EB64D8C7E40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{C4E1340B-CB97-4663-A4EE-83F4FD14C6E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{6564C166-2357-4E5D-B71B-0FB1A1F0684C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{0981F6BE-98B7-4846-A969-32BC07058CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0981F6BE-98B7-4846-A969-32BC07058CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0981F6BE-98B7-4846-A969-32BC07058CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B26B16-183C-4142-A723-07467CAC53C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B26B16-183C-4142-A723-07467CAC53C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B26B16-183C-4142-A723-07467CAC53C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B26B16-183C-4142-A723-07467CAC53C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A302F1D3-56B0-4C94-9EEA-4EB64D8C7E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A302F1D3-56B0-4C94-9EEA-4EB64D8C7E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A302F1D3-56B0-4C94-9EEA-4EB64D8C7E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A302F1D3-56B0-4C94-9EEA-4EB64D8C7E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E1340B-CB97-4663-A4EE-83F4FD14C6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E1340B-CB97-4663-A4EE-83F4FD14C6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E1340B-CB97-4663-A4EE-83F4FD14C6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E1340B-CB97-4663-A4EE-83F4FD14C6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6564C166-2357-4E5D-B71B-0FB1A1F0684C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6564C166-2357-4E5D-B71B-0FB1A1F0684C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6564C166-2357-4E5D-B71B-0FB1A1F0684C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6564C166-2357-4E5D-B71B-0FB1A1F0684C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
